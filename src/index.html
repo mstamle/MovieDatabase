@@ -18,19 +18,22 @@
     <header>
         <div id="navbar" class="sticky">
             <nav class="mynav">
-                <a href="/index.html"><img id="logo" src="/img/logo.png" alt="The logo of Movie Craze"></a>
-                <ul>
+                <a href="/index.html">
+                    <img class="navbar-brand" src="/img/logo.png" alt="The logo
+                    of Movie Craze">
+                </a>
+                <ul class="nav navbar-right">
                     <li>
-                        <a href="#home">HOME</a>
+                        <a class="nav-link" href="#home">HOME</a>
                     </li>
                     <li>
-                        <a href="#recent">RECENT NEWS</a>
+                        <a class="nav-link" href="#recent">RECENT NEWS</a>
                     </li>
                     <li>
-                        <a href="#hotm">HOTTEST MOVIES</a>
+                        <a class="nav-link" href="#hotm">HOTTEST MOVIES</a>
                     </li>
                     <li>
-                        <a href="#hota">HOTTEST ACTORS</a>
+                        <a class="nav-link" href="#hota">HOTTEST ACTORS</a>
                     </li>
                 </ul>
 
@@ -45,10 +48,13 @@
     <main class="container">
         <section id="#recent" class="section section--recent">
             <h2>Recent News </h2>
-            <article>
-                <div class="sideimg"><img src="/img/zSa.jpg" alt="Portrait of
-                Zoe Saldana"></div>
-                <div class="article">
+
+            <div class="row">
+               <div class="col-sm-6 justify-content-center">
+                    <img src="/img/zSa.jpg" class="rounded-circle
+                    img-fluid" alt="Portrait of Zoe Saldana">
+               </div>
+                <div class="col-sm-6">
                     <h3>Zoe Saldana Joins the Voice Cast of ‘My Little Pony: The
                     Movie
                     </h3>
@@ -63,15 +69,21 @@
                     Friendship Is Magic” animated series.
                     </p>
                 </div>
-            </article>
-            <hr class="line">
-            <article>
-                <div class="sideimg"><img src="/img/jFo.jpg" alt="Portrait of
-                Jamie Foxx"></div>
-                <div class="article">
+            </div>
+
+
+            <div class="row">
+
+
+                <div class="col-sm-6 justify-content-center">
+                    <img src="/img/jFo.jpg" class="rounded-circle
+                    img-fluid" alt="Portrait of Jamie Foxx">
+                </div>
+
+                <div class="col-sm-6">
                     <h3>Jamie Foxx Still Claiming Martin Scorsese Will Direct A
                     Mike Tyson Biopic
-                        </h3>
+                    </h3>
                     <p>While Martin Scorsese always seems to have a busy
                     schedule, it might have opened up slightly given the recent
                     revelation that he bailed on that Frank Sinatra biopic. The
@@ -80,25 +92,157 @@
                     friend Robert De Niro, but according to Jamie Foxx, Scorsese
                     is still going to make a Mike Tyson biopic.</p>
                 </div>
-            </article>
+            </div>
+
         </section>
-        <section id="#hotm" class="section section--hotm">
-            <h2>Hot Movies</h2>
-            <img class="centerimg" src="/img/rogue-one.jpg" alt="Poster of Movie
-            Rogue One">
-            <h3>Rogue One</h3>
-        </section>
+
+
+
+        <h2>Hot Movies</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="/img/rogue-one.jpg"
+                    alt="Poster of Movie Rogue One">
+                    <div class="card-body">
+                        <h3 class="card-title">Rogue One</h3>
+                        <p class="card-text">All looks lost for the Rebellion
+                        against the Empire as they learn of the existence of a
+                        new super weapon, the Death Star. Once a possible
+                        weakness in its construction is uncovered, the Rebel
+                        Alliance must set out on a desperate mission to steal
+                        the plans for the Death Star. The future of the entire
+                        galaxy now rests upon its success.
+                        </p>
+                        <a href="rogue-one.html" class="btn btn-primary">See
+                        more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="/img/rogue-one.jpg"
+                    alt="Poster of Movie Rogue One">
+                    <div class="card-body">
+                        <h3 class="card-title">Rogue One</h3>
+                        <p class="card-text">All looks lost for the Rebellion
+                        against the Empire as they learn of the existence of a
+                        new super weapon, the Death Star. Once a possible
+                        weakness in its construction is uncovered, the Rebel
+                        Alliance must set out on a desperate mission to steal
+                        the plans for the Death Star. The future of the entire
+                        galaxy now rests upon its success.
+                        </p>
+                        <a href="rogue-one.html" class="btn btn-primary">See
+                        more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="/img/rogue-one.jpg"
+                    alt="Poster of Movie Rogue One">
+                    <div class="card-body">
+                        <h3 class="card-title">Rogue One</h3>
+                        <p class="card-text">All looks lost for the Rebellion
+                        against the Empire as they learn of the existence of a
+                        new super weapon, the Death Star. Once a possible
+                        weakness in its construction is uncovered, the Rebel
+                        Alliance must set out on a desperate mission to steal
+                        the plans for the Death Star. The future of the entire
+                        galaxy now rests upon its success.
+                        </p>
+                        <a href="rogue-one.html" class="btn btn-primary">See
+                        more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <section id="hota" class="section section--hota">
             <h2>Hot Actors</h2>
-            <h3>Felicity Jones</h3>
-            <img class="centerimg" src="/img/felicity-jones.jpg" alt="Portrait
-            of Felicity Jones">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/rogue-one.jpg"
+                        alt="Poster of Movie Rogue One">
+                        <div class="card-body">
+                            <h3 class="card-title">Rogue One</h3>
+                            <p class="card-text">All looks lost for the
+                            Rebellion against the Empire as they learn of the
+                            existence of a new super weapon, the Death Star.
+                            Once a possible weakness in its construction is
+                            uncovered, the Rebel Alliance must set out on a
+                            desperate mission to steal the plans for the Death
+                            Star. The future of the entire galaxy now rests upon
+                            its success.
+                            </p>
+                            <a href="rogue-one.html" class="btn btn-primary">See
+                            more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/rogue-one.jpg"
+                        alt="Poster of Movie Rogue One">
+                        <div class="card-body">
+                            <h3 class="card-title">Rogue One</h3>
+                            <p class="card-text">All looks lost for the
+                            Rebellion against the Empire as they learn of the
+                            existence of a new super weapon, the Death Star.
+                            Once a possible weakness in its construction is
+                            uncovered, the Rebel Alliance must set out on a
+                            desperate mission to steal the plans for the Death
+                            Star. The future of the entire galaxy now rests upon
+                            its success.
+                            </p>
+                            <a href="rogue-one.html" class="btn btn-primary">See
+                            more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/rogue-one.jpg"
+                        alt="Poster of Movie Rogue One">
+                        <div class="card-body">
+                            <h3 class="card-title">Rogue One</h3>
+                            <p class="card-text">All looks lost for the
+                            Rebellion against the Empire as they learn of the
+                            existence of a new super weapon, the Death Star.
+                            Once a possible weakness in its construction is
+                            uncovered, the Rebel Alliance must set out on a
+                            desperate mission to steal the plans for the Death
+                            Star. The future of the entire galaxy now rests upon
+                            its success.
+                            </p>
+                            <a href="rogue-one.html" class="btn btn-primary">See
+                            more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
     </main>
 
     <footer>
-        <p>Copyright 2018 - Movie Craze by TL</p>
+        <p class="text-center">Copyright 2018 - Movie Craze by TL</p>
     </footer>
 
 </body>
