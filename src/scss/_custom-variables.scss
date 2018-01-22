@@ -8,11 +8,11 @@
 // // Color system
 // //
 
-// // $sandybrown: #F1BA5F;
-// // $firebrick: #A42616;
-// // $saddlebrown: #591F12;
-// // $black:#070504;
-// // $darkerbrown: #2F0B07;
+$sandybrown: #F1BA5F;
+$firebrick: #A42616;
+$saddlebrown: #591F12;
+$black:#070504;
+$darkerbrown: #2F0B07;
 
 // // stylelint-disable
 // $white:    #fff !default;
@@ -68,8 +68,8 @@
 //   "gray-dark":  $gray-800
 // ), $colors);
 
-// $primary:       #F1BA5F !default;
-// $secondary:     $gray-600 !default;
+$primary:       #F1BA5F !default;
+$secondary:     #A42616 !default;
 // $success:       $green !default;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
@@ -142,8 +142,8 @@
 // //
 // // Settings for the `<body>` element.
 
-// $body-bg:                   $white !default;
-// $body-color:                $gray-900 !default;
+$body-bg:                   $black;
+$body-color:                $sandybrown !default;
 
 // // Links
 // //
