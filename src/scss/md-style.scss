@@ -72,7 +72,30 @@ $sandybrown: #F1BA5F;
 //     padding-top: 60px;
 // }
 
+.navbar-default {
+    background: rgba(0,0,0,0.9);
+    background-image: none;
+    border-color: rgba(0,0,0,0.9);
+    box-shadow: none;
 
+}
+
+.mybutton {
+    background-image: url(../img/video.png);
+    background-size: cover;
+    background-position: center center;
+    height: 40px;
+    width: 40px;
+}
+
+.mybutton:hover,
+.mybutton:focus {
+    border: none;
+}
+
+.space {
+    height: 80px;
+}
 
 .jumbotron {
 
